@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .profile-img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: calc(33.333% - 20px);
+            margin-bottom: 20px;
+        }
+        .bio {
+            margin-top: 20px;
+        }
+        .bio h2 {
+            margin-bottom: 10px;
+        }
+        .bio p {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>John Doe</h1>
+        <img src="https://via.placeholder.com/200" alt="John Doe's Photo" class="profile-img">
+        <div class="bio">
+            <h2>Про мене</h2>
+            <p>Привіт, мене звати Джон Доу. Я розробник програмного забезпечення з досвідом у веб-розробці та програмуванні на Python. Моя пристрасть - створювати інноваційні рішення та допомагати бізнесам досягати своїх цілей через технології.</p>
+            <p>Захоплююсь програмуванням, подорожами та новими викликами. Завжди готовий до нових можливостей і проектів.</p>
+        </div>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300" alt="John Doe at a tech conference">
+            <img src="https://via.placeholder.com/300" alt="John Doe's project showcase">
+            <img src="https://via.placeholder.com/300" alt="John Doe coding session">
+        </div>
+    </div>
+</body>
+</html>
